@@ -7,3 +7,21 @@
     line-height: 22px;
   }
 }
+
+#interface-summary-container {
+  display: inline-block;
+  margin: 1.5em 0;
+}
+
+.interface-summary-item {
+  display: flex;
+  align-items: center;
+
+  p {
+    margin-left: 0.9em;
+  }
+}
+
+#bottom-phone {
+  width: 100%;
+}

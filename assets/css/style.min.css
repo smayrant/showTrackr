@@ -469,4 +469,21 @@ body {
 #app-showcase-section p {
   line-height: 22px; }
 
+#interface-summary-container {
+  display: inline-block;
+  margin: 1.5em 0; }
+
+.interface-summary-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .interface-summary-item p {
+    margin-left: 0.9em; }
+
+#bottom-phone {
+  width: 100%; }
+
 /*# sourceMappingURL=style.min.css.map */
