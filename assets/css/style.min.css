@@ -39,7 +39,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 22px;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
@@ -59,6 +58,9 @@ body {
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
+
+p {
+  line-height: 22px; }
 
 /* Grouping content
    ========================================================================== */
@@ -489,12 +491,22 @@ body {
 
 #testimonials-section {
   background-color: black;
-  padding-top: 3em; }
+  padding: 3.5em 0.7em; }
 
 #community-container {
   color: white; }
   #community-container h3 {
     font-size: 1.7em; }
+  #community-container button {
+    max-width: 216px;
+    height: 42px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(32, 5, 97, 0.08), 0 2px 4px 0 rgba(32, 5, 97, 0.1);
+            box-shadow: 0 1px 2px 0 rgba(32, 5, 97, 0.08), 0 2px 4px 0 rgba(32, 5, 97, 0.1);
+    background-color: #540cfa;
+    border: none;
+    color: white;
+    margin: 1em 0 2.5em 0; }
 
 #community-div {
   color: white; }
