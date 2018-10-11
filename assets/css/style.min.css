@@ -334,4 +334,47 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  font-family: "source sans pro"; }
+
+#nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#showTrackr-logo {
+  font-weight: 700;
+  margin-right: auto; }
+
+#trackr {
+  color: #540cfa; }
+
+#nav-button {
+  width: 102px;
+  height: 32px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
+          box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
+  background-color: #540cfa;
+  color: white; }
+
+.email-input {
+  width: 50%;
+  height: 53px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+  border: solid 0.5px rgba(0, 0, 0, 0.05);
+  background-color: white; }
+
+#hero-section h2 {
+  font-weight: 900;
+  font-size: 2.3em; }
+
+#hero-description {
+  font-weight: 300; }
+
 /*# sourceMappingURL=style.min.css.map */

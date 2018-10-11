@@ -1,0 +1,26 @@
+#nav-container {
+  display: flex;
+  align-items: center;
+}
+
+#showTrackr-logo {
+  font-weight: 700;
+  margin-right: auto;
+}
+
+#trackr {
+  color: $main-blue;
+}
+
+#nav-button {
+  width: 102px;
+  height: 32px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
+  background-color: $main-blue;
+  color: white;
+}
+
+.email-input {
+  @include email-input;
+}
