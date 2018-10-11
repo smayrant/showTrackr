@@ -335,7 +335,8 @@ template {
   display: none; }
 
 body {
-  font-family: "source sans pro"; }
+  font-family: "source sans pro";
+  text-align: center; }
 
 .container {
   margin-left: auto;
@@ -456,5 +457,16 @@ body {
 #feature-container-1,
 #feature-container-2 {
   margin-bottom: 2.8em; }
+
+#show-posters-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+#app-showcase-section h3 {
+  font-size: 1.7em; }
+
+#app-showcase-section p {
+  line-height: 22px; }
 
 /*# sourceMappingURL=style.min.css.map */
