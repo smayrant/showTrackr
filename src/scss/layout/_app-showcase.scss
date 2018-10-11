@@ -2,10 +2,6 @@
   h3 {
     font-size: 1.7em;
   }
-
-  p {
-    line-height: 22px;
-  }
 }
 
 #interface-summary-container {
@@ -22,6 +18,12 @@
   }
 }
 
+#square-shape-icon {
+  opacity: 0.5;
+}
+
 #bottom-phone {
   width: 100%;
+  max-width: 312px;
+  margin-bottom: 1.3em;
 }
