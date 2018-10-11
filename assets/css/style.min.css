@@ -406,9 +406,6 @@ body {
   opacity: 0.3;
   font-size: 12px;
   font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
   letter-spacing: 2px; }
 
 #compatible-with-image-container {
@@ -426,6 +423,38 @@ body {
     height: auto; }
 
 #top-phone {
-  width: 100%; }
+  width: 100%;
+  max-width: 310px; }
+
+#features-span {
+  font-size: 0.83em;
+  font-weight: 300; }
+
+#features-header-container h3 {
+  font-size: 1.7em;
+  font-weight: 900;
+  margin: 0.5em 0; }
+
+#features-header-container p {
+  line-height: 22px; }
+
+#features-summary-main-container {
+  margin: 2em 0 3em;
+  text-align: center; }
+  #features-summary-main-container h5 {
+    margin: 0.5em 0;
+    font-size: 1em; }
+  #features-summary-main-container a {
+    text-decoration: none;
+    color: #540cfa;
+    font-weight: 600; }
+  #features-summary-main-container span {
+    margin-left: 0.3em;
+    color: #540cfa;
+    font-weight: 600; }
+
+#feature-container-1,
+#feature-container-2 {
+  margin-bottom: 2.8em; }
 
 /*# sourceMappingURL=style.min.css.map */

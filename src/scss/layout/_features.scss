@@ -1,0 +1,41 @@
+#features-span {
+  font-size: 0.83em;
+  font-weight: 300;
+}
+
+#features-header-container {
+  h3 {
+    font-size: 1.7em;
+    font-weight: 900;
+    margin: 0.5em 0;
+  }
+
+  p {
+    line-height: 22px;
+  }
+}
+
+#features-summary-main-container {
+  margin: 2em 0 3em;
+  text-align: center;
+  h5 {
+    margin: 0.5em 0;
+    font-size: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color: $main-blue;
+    font-weight: 600;
+  }
+  span {
+    margin-left: 0.3em;
+    color: $main-blue;
+    font-weight: 600;
+  }
+}
+
+#feature-container-1,
+#feature-container-2 {
+  margin-bottom: 2.8em;
+}
