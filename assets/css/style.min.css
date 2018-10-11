@@ -337,44 +337,95 @@ template {
 body {
   font-family: "source sans pro"; }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 0.7em; }
+
 #nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin-top: 0.6em;
+  padding-bottom: 0.4em; }
 
 #showTrackr-logo {
-  font-weight: 700;
+  font-weight: 900;
   margin-right: auto; }
 
 #trackr {
   color: #540cfa; }
 
 #nav-button {
+  font-size: 0.9em;
   width: 102px;
   height: 32px;
   border-radius: 4px;
   -webkit-box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
           box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
   background-color: #540cfa;
-  color: white; }
+  color: white;
+  font-weight: 700; }
 
 .email-input {
   width: 50%;
+  max-width: 450px;
   height: 53px;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 6px 12px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 6px 12px 0 rgba(0, 0, 0, 0.05);
   border: solid 0.5px rgba(0, 0, 0, 0.05);
-  background-color: white; }
+  background-color: white;
+  margin-right: 0; }
+
+#nav-bottom-border {
+  border-bottom: 1px #e0e0e0 solid; }
 
 #hero-section h2 {
   font-weight: 900;
-  font-size: 2.3em; }
+  font-size: 2.1em; }
 
 #hero-description {
-  font-weight: 300; }
+  font-weight: 300;
+  line-height: 22px; }
+
+.submit-button {
+  width: 44%;
+  max-width: 141px;
+  height: 53px;
+  background-color: #540cfa;
+  color: white;
+  margin-left: 0;
+  font-weight: 700; }
+
+#compatible-with {
+  opacity: 0.3;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px; }
+
+#compatible-with-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #compatible-with-image-container img {
+    width: 40%;
+    max-width: 42px;
+    height: auto; }
+
+#top-phone {
+  width: 100%; }
 
 /*# sourceMappingURL=style.min.css.map */

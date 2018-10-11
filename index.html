@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>ShowTrackr</title>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
   <link media="all" rel="stylesheet" href="assets/css/vendor.min.css">
@@ -13,21 +13,22 @@
 </head>
 
 <body>
-  <section id="nav-section">
+  <section id="nav-section" class="container">
     <nav id="nav-container">
       <div id="showTrackr-logo">Show<span id="trackr">Trackr</span></div>
       <div id="nav-button-container"><button id="nav-button">Get Started</button></div>
     </nav>
   </section>
-  <section id="hero-section">
+  <div id="nav-bottom-border"></div>
+  <section id="hero-section" class="container">
     <h2>Track Your Shows Automatically</h2>
     <p id="hero-description">With ShowTrackr you can track your favorite TV shows automatically, so you never lose
       track of your TV shows ever again.</p>
-    <div class="input-button-container"><input class="email-input" type="email">
+    <div class="input-button-container"><input class="email-input" placeholder="your@email.com" type="email">
       <button class="submit-button">Start Tracking</button>
     </div>
     <div>
-      <p>COMPATIBLE WITH</p>
+      <p id="compatible-with">COMPATIBLE WITH</p>
     </div>
     <div id="compatible-with-image-container">
       <img src="src/images/netflix.png" alt="Netflix Logo">
@@ -36,9 +37,9 @@
       <img src="src/images/windows.png" alt="Windows Logo">
       <img src="src/images/synology.png" alt="Synology Logo">
     </div>
-    <div><img src="src/images/iphone-x-mockup.png" alt="Iphone X Mockup"></div>
+    <div><img id="top-phone" src="src/images/iphone-x-mockup.png" alt="Iphone X Mockup"></div>
   </section>
-  <section id="features-section">
+  <section id="features-section" class="container">
     <div id="features-header-container">
       <span id="features-span">Features</span>
       <h3>Built and Customized for Your Habits</h3>
@@ -66,13 +67,13 @@
       </div>
     </div>
   </section>
-  <section id="show-poster-section">
+  <section id="show-poster-section" class="container">
     <div id="show-posters-container">
       <img src="src/images/show1.png" alt="Show Poster">
       <img src="src/images/show2.png" alt="Show Poster">
     </div>
   </section>
-  <section id="app-showcase-section">
+  <section id="app-showcase-section" class="container">
     <h3>Easy to Use Interfaces on Every Platform</h3>
     <p>Since most of our features work in a completely automated way, you will mainly use our apps to discover new TV
       shows recommended for you and discuss the most interesting episodes with like-minded people.</p>
@@ -94,7 +95,7 @@
       <img src="src/images/iphone-x-mockup.png" alt="Iphone X Mockup">
     </div>
   </section>
-  <section id="testimonials-section">
+  <section id="testimonials-section" class="container">
     <div id="community-container">
       <div>Community</div>
       <h3>We Believe in the Power of Community</h3>
@@ -107,7 +108,7 @@
       <img class="testimonial" src="src/images/testimonial-individual2.png" alt="Testimonial">
     </div>
   </section>
-  <section id="footer-section">
+  <section id="footer-section" class="container">
     <footer>
       <div>
         <span>Get Started</span>
@@ -115,7 +116,7 @@
         <p>In order to start tracking your TV shows, all you have to do is enter your email address. Everything else
           will be taken care of by us. All you have to do is sit back, relax and enjoy your TV shows.</p>
         <div class="input-button-container">
-          <input class="email-input" type="email">
+          <input class="email-input" placeholder="your@email.com" type="email">
           <button class="submit-button">Start Tracking</button>
         </div>
         <div>

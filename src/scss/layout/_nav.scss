@@ -1,10 +1,12 @@
 #nav-container {
   display: flex;
   align-items: center;
+  margin-top: 0.6em;
+  padding-bottom: 0.4em;
 }
 
 #showTrackr-logo {
-  font-weight: 700;
+  font-weight: 900;
   margin-right: auto;
 }
 
@@ -13,14 +15,20 @@
 }
 
 #nav-button {
+  font-size: 0.9em;
   width: 102px;
   height: 32px;
   border-radius: 4px;
   box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
   background-color: $main-blue;
   color: white;
+  font-weight: 700;
 }
 
 .email-input {
   @include email-input;
+}
+
+#nav-bottom-border {
+  border-bottom: 1px #e0e0e0 solid;
 }
