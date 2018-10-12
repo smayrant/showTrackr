@@ -31,11 +31,16 @@
       <p id="compatible-with">COMPATIBLE WITH</p>
     </div>
     <div id="compatible-with-image-container">
-      <img src="src/images/netflix.png" alt="Netflix Logo">
-      <img src="src/images/apple.png" alt="Apple Logo">
-      <img src="src/images/android.png" alt="Android Logo">
-      <img src="src/images/windows.png" alt="Windows Logo">
-      <img src="src/images/synology.png" alt="Synology Logo">
+      <div class="con1">
+        <img src="src/images/netflix.png" alt="Netflix Logo">
+      </div>
+      <div class="con">
+        <img src="src/images/apple.png" alt="Apple Logo">
+      </div>
+
+      <div class="con"><img src="src/images/android.png" alt="Android Logo"></div>
+      <div class="con"><img src="src/images/windows.png" alt="Windows Logo"></div>
+      <div class="con1"><img src="src/images/synology.png" alt="Synology Logo"></div>
     </div>
     <div><img id="top-phone" src="src/images/iphone-x-mockup.png" alt="Iphone X Mockup"></div>
   </section>
@@ -95,22 +100,26 @@
       <img id="bottom-phone" src="src/images/iphone-x-mockup.png" alt="Iphone X Mockup">
     </div>
   </section>
-  <section id="testimonials-section" class="container">
-    <div id="community-container">
-      <div id"community-div">Community</div>
-      <h3>We Believe in the Power of Community</h3>
-      <p>Our goal is to create a product and service that you're satisfied with and use it every day. This is why we're
-        constantly working on our services to make it better every day and really listen to what our users have to say.</p>
-      <button>Read More Testimonials</button>
-    </div>
-    <div>
-      <img class="testimonial" src="src/images/testimonial-individual1.png" alt="Testimonial">
-      <img class="testimonial" src="src/images/testimonial-individual2.png" alt="Testimonial">
+  <section id="testimonials-section">
+    <div class="container">
+      <div id="community-container">
+        <div id="community-div">Community</div>
+        <h3>We Believe in the Power of Community</h3>
+        <p>Our goal is to create a product and service that you're satisfied with and use it every day. This is why
+          we're
+          constantly working on our services to make it better every day and really listen to what our users have to
+          say.</p>
+        <button>Read More Testimonials</button>
+      </div>
+      <div id="testimonial-container">
+        <img class="testimonial" src="src/images/testimonial-individual1.png" alt="Testimonial">
+        <img class="testimonial" src="src/images/testimonial-individual2.png" alt="Testimonial">
+      </div>
     </div>
   </section>
   <section id="footer-section" class="container">
     <footer>
-      <div>
+      <div id="footer-container">
         <span>Get Started</span>
         <h3>Start Tracking Your TV Shows for Free</h3>
         <p>In order to start tracking your TV shows, all you have to do is enter your email address. Everything else
@@ -119,10 +128,14 @@
           <input class="email-input" placeholder="your@email.com" type="email">
           <button class="submit-button">Start Tracking</button>
         </div>
-        <div>
+        <div id="footer-icons-container">
           <i class="fab fa-twitter"></i>
           <i class="fab fa-facebook-square"></i>
           <i class="fab fa-youtube"></i>
+        </div>
+        <div id="copyright-container">
+          <p id="copyright-info">Copyright 2018 All rights reserved - Designed by Daniel Korpai and developed by
+            Sheldrick Mayrant</p>
         </div>
       </div>
     </footer>

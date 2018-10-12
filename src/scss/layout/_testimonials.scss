@@ -1,13 +1,10 @@
 #testimonials-section {
   background-color: black;
-  padding: 3.5em 0.7em;
+  padding: 3.5em 0.7em 5.5em;
 }
 
 #community-container {
   color: white;
-  h3 {
-    font-size: 1.7em;
-  }
 
   button {
     max-width: 216px;
@@ -23,4 +20,16 @@
 }
 #community-div {
   color: white;
+  opacity: 0.3;
+}
+
+#testimonial-container {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
+  margin-right: 1em;
+  width: 260px;
+  height: auto;
 }

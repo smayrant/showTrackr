@@ -346,6 +346,10 @@ body {
   max-width: 1200px;
   padding: 0 0.7em; }
 
+h3 {
+  font-size: 1.8em;
+  font-weight: 900; }
+
 #nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,7 +381,7 @@ body {
 .email-input {
   width: 50%;
   max-width: 450px;
-  height: 53px;
+  height: 42px;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 6px 12px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 6px 12px 0 rgba(0, 0, 0, 0.05);
@@ -396,13 +400,14 @@ body {
   font-weight: 300; }
 
 .submit-button {
-  width: 44%;
+  width: 42%;
   max-width: 141px;
-  height: 53px;
+  height: 42px;
   background-color: #540cfa;
   color: white;
   margin-left: 0;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 0.8em; }
 
 #compatible-with {
   opacity: 0.3;
@@ -416,13 +421,14 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
   #compatible-with-image-container img {
-    width: 40%;
-    max-width: 42px;
-    height: auto; }
+    width: 60%;
+    height: auto;
+    -o-object-fit: scale-down;
+       object-fit: scale-down; }
 
 #top-phone {
   width: 100%;
@@ -433,12 +439,7 @@ body {
   font-weight: 300; }
 
 #features-header-container h3 {
-  font-size: 1.7em;
-  font-weight: 900;
   margin: 0.5em 0; }
-
-#features-header-container p {
-  line-height: 22px; }
 
 #features-summary-main-container {
   margin: 2em 0 3em;
@@ -462,10 +463,10 @@ body {
 #show-posters-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-
-#app-showcase-section h3 {
-  font-size: 1.7em; }
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 #interface-summary-container {
   display: inline-block;
@@ -491,12 +492,10 @@ body {
 
 #testimonials-section {
   background-color: black;
-  padding: 3.5em 0.7em; }
+  padding: 3.5em 0.7em 5.5em; }
 
 #community-container {
   color: white; }
-  #community-container h3 {
-    font-size: 1.7em; }
   #community-container button {
     max-width: 216px;
     height: 42px;
@@ -509,6 +508,45 @@ body {
     margin: 1em 0 2.5em 0; }
 
 #community-div {
-  color: white; }
+  color: white;
+  opacity: 0.3; }
+
+#testimonial-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.testimonial {
+  margin-right: 1em;
+  width: 260px;
+  height: auto; }
+
+footer {
+  padding: 3.8em 0 1.6em; }
+
+#footer-container p {
+  margin-bottom: 1.3em; }
+
+#footer-container span {
+  opacity: 0.8;
+  font-size: 0.8em; }
+
+#footer-container h3 {
+  margin-top: 0.4em; }
+
+#footer-icons-container {
+  margin-top: 4em; }
+  #footer-icons-container i {
+    opacity: 0.2;
+    padding-left: 1.6em; }
+
+#copyright-info {
+  opacity: 0.3;
+  font-size: 0.65em;
+  line-height: 16px;
+  margin-top: 2em; }
 
 /*# sourceMappingURL=style.min.css.map */
