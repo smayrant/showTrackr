@@ -345,6 +345,9 @@ body {
   margin-right: auto;
   max-width: 1200px;
   padding: 0 0.7em; }
+  @media screen and (min-width: 960px) {
+    .container {
+      padding: 0 1.5em; } }
 
 h3 {
   font-size: 1.8em;
@@ -391,7 +394,8 @@ a {
       -ms-flex-align: center;
           align-items: center; }
   #nav-right-side-container p {
-    padding-right: 1.5em; }
+    padding-right: 1.5em;
+    font-weight: 700; }
 
 #nav-button {
   font-size: 0.7em;
@@ -421,6 +425,19 @@ a {
 #hero-section h2 {
   font-weight: 900;
   font-size: 2.5em; }
+  @media screen and (min-width: 960px) {
+    #hero-section h2 {
+      font-size: 3em;
+      margin-bottom: 0.4em; } }
+
+@media screen and (min-width: 960px) {
+  #hero-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 #hero-description {
   font-weight: 300; }
@@ -434,6 +451,10 @@ a {
   margin-left: 0;
   font-weight: 700;
   font-size: 0.8em; }
+
+@media screen and (min-width: 960px) {
+  #compatible-with-container {
+    margin-top: 10em; } }
 
 #compatible-with {
   margin-top: 2.3em;
@@ -449,17 +470,27 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .con img {
   width: 60%; }
+  @media screen {
+    .con img {
+      width: 70%; } }
 
 #top-phone {
   width: 100%;
   max-width: 310px;
   margin-top: 1.7em; }
+
+@media screen and (min-width: 960px) {
+  #hero-left-side-container {
+    max-width: 50%;
+    text-align: left;
+    -ms-flex-item-align: center;
+        align-self: center; } }
 
 #features-span {
   font-size: 0.83em;
