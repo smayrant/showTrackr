@@ -357,8 +357,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 0.6em;
-  padding-bottom: 0.4em; }
+  padding: 0.5em 0; }
 
 #showTrackr-logo {
   font-weight: 900;
@@ -368,8 +367,8 @@ h3 {
   color: #540cfa; }
 
 #nav-button {
-  font-size: 0.9em;
-  width: 102px;
+  font-size: 0.7em;
+  width: 92px;
   height: 32px;
   border-radius: 4px;
   -webkit-box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
@@ -394,7 +393,7 @@ h3 {
 
 #hero-section h2 {
   font-weight: 900;
-  font-size: 2.1em; }
+  font-size: 2.5em; }
 
 #hero-description {
   font-weight: 300; }
@@ -410,8 +409,9 @@ h3 {
   font-size: 0.8em; }
 
 #compatible-with {
-  opacity: 0.3;
-  font-size: 12px;
+  margin-top: 2.3em;
+  opacity: 0.4;
+  font-size: 0.55em;
   font-weight: 400;
   letter-spacing: 2px; }
 
@@ -419,20 +419,20 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch; }
-  #compatible-with-image-container img {
-    width: 60%;
-    height: auto;
-    -o-object-fit: scale-down;
-       object-fit: scale-down; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+
+.con img {
+  width: 60%; }
 
 #top-phone {
   width: 100%;
-  max-width: 310px; }
+  max-width: 310px;
+  margin-top: 1.7em; }
 
 #features-span {
   font-size: 0.83em;

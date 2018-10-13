@@ -1,8 +1,10 @@
 #hero-section {
   h2 {
     font-weight: 900;
-    font-size: 2.1em;
+    font-size: 2.5em;
   }
+
+  // background: url("../images/orange-purple-rectangle.png") no-repeat -10% -10%;
 }
 
 #hero-description {
@@ -14,27 +16,29 @@
 }
 
 #compatible-with {
-  opacity: 0.3;
-  font-size: 12px;
+  margin-top: 2.3em;
+  opacity: 0.4;
+  font-size: 0.55em;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
 #compatible-with-image-container {
   display: flex;
-  justify-content: space-around;
-  align-items: stretch;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+.con {
   img {
     width: 60%;
-    height: auto;
-    object-fit: scale-down;
   }
 }
 
 #top-phone {
   width: 100%;
   max-width: 310px;
+  margin-top: 1.7em;
 }
 
 // .con {
