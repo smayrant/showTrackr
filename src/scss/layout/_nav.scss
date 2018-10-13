@@ -1,7 +1,7 @@
 #nav-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  // margin-top: 0.6em;
   padding: 0.5em 0;
 }
 
@@ -12,6 +12,28 @@
 
 #trackr {
   color: $main-blue;
+}
+
+#nav-middle-section-container {
+  display: flex;
+
+  a {
+    padding-right: 4em;
+    color: black;
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+}
+
+#nav-right-side-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+
+  p {
+    padding-right: 1.5em;
+  }
 }
 
 #nav-button {

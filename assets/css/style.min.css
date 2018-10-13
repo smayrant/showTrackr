@@ -350,10 +350,16 @@ h3 {
   font-size: 1.8em;
   font-weight: 900; }
 
+a {
+  text-decoration: none; }
+
 #nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -365,6 +371,27 @@ h3 {
 
 #trackr {
   color: #540cfa; }
+
+#nav-middle-section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  #nav-middle-section-container a {
+    padding-right: 4em;
+    color: black; }
+    #nav-middle-section-container a:last-of-type {
+      padding-right: 0; }
+
+#nav-right-side-container {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #nav-right-side-container p {
+    padding-right: 1.5em; }
 
 #nav-button {
   font-size: 0.7em;
@@ -448,7 +475,6 @@ h3 {
     margin: 0.5em 0;
     font-size: 1em; }
   #features-summary-main-container a {
-    text-decoration: none;
     color: #540cfa;
     font-weight: 600; }
   #features-summary-main-container span {
