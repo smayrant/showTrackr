@@ -25,7 +25,7 @@
 
 #compatible-with-container {
   @media screen and (min-width: 960px) {
-    margin-top: 10em;
+    margin-top: 8em;
   }
 }
 
@@ -61,8 +61,17 @@
 
 #hero-left-side-container {
   @media screen and (min-width: 960px) {
-    max-width: 50%;
+    max-width: 48%;
     text-align: left;
     align-self: center;
+    margin-right: 6em;
+
+    p {
+      max-width: 80%;
+    }
+
+    .top-input-button {
+      margin-top: 1.8em;
+    }
   }
 }

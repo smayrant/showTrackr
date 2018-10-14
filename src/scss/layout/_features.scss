@@ -6,6 +6,20 @@
 #features-header-container {
   h3 {
     margin: 0.5em 0;
+
+    @media screen and (min-width: 960px) {
+      max-width: 37%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 2.2em;
+    }
+  }
+
+  p {
+    @media screen and (min-width: 960px) {
+      max-width: 50%;
+      margin: 1.5em auto;
+    }
   }
 }
 
@@ -25,6 +39,10 @@
     margin-left: 0.3em;
     color: $main-blue;
     font-weight: 600;
+  }
+
+  @media screen and (min-width: 960px) {
+    display: flex;
   }
 }
 
