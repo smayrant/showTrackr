@@ -1,8 +1,8 @@
 #testimonials-section {
   background-color: black;
-
-  @media screen {
-    overflow: hidden;
+  padding: 4em 0 7em;
+  overflow: hidden;
+  @media screen and(min-width: 960px) {
     height: 700px;
   }
 }
@@ -59,7 +59,7 @@
 
   @media screen and(min-width: 960px) {
     margin-right: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
     max-width: 80%;
   }
 }
@@ -80,5 +80,9 @@
 .testimonial-container-two {
   position: relative;
   right: 7%;
-  top: -5%;
+  top: -25%;
+
+  @media screen and(max-width: 959px) {
+    display: none;
+  }
 }

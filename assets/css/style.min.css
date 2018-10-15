@@ -359,6 +359,10 @@ h3 {
 a {
   text-decoration: none; }
 
+p {
+  max-width: 650px;
+  margin: 0 auto; }
+
 #nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -387,6 +391,9 @@ a {
     color: black; }
     #nav-middle-section-container a:last-of-type {
       padding-right: 0; }
+  @media screen and (max-width: 959px) {
+    #nav-middle-section-container {
+      display: none; } }
 
 #nav-right-side-container {
   margin-left: auto;
@@ -399,6 +406,9 @@ a {
   #nav-right-side-container p {
     padding-right: 1.5em;
     font-weight: 700; }
+    @media screen and (max-width: 600px) {
+      #nav-right-side-container p {
+        display: none; } }
 
 #nav-button {
   font-size: 0.7em;
@@ -475,12 +485,14 @@ a {
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  max-width: 650px;
+  margin: 0 auto; }
 
-.con img {
+.compatible-with-image-div img {
   width: 60%; }
-  @media screen {
-    .con img {
+  @media screen and (min-width: 960px) {
+    .compatible-with-image-div img {
       width: 70%; } }
 
 #top-phone {
@@ -547,6 +559,10 @@ a {
     max-width: 33%;
     padding: 0 2em; } }
 
+#show-poster-section {
+  overflow: hidden;
+  margin-bottom: 3.7em; }
+
 #show-posters-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,6 +570,11 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  #show-posters-container img {
+    width: auto;
+    height: auto;
+    max-width: 220px;
+    max-height: 330px; }
 
 @media screen and (min-width: 960px) {
   #app-showcase-section {
@@ -622,12 +643,23 @@ a {
     @media screen and (min-width: 960px) and (min-width: 1049px) {
       #right-mockup-container #bottom-phone {
         width: 28%; } }
+    @media screen and (min-width: 960px) and (min-width: 1100px) {
+      #right-mockup-container #bottom-phone {
+        bottom: -23%; } }
+    @media screen and (min-width: 960px) and (min-width: 1100px) {
+      #right-mockup-container #bottom-phone {
+        bottom: -26%; } }
+
+@media screen and (max-width: 959px) {
+  #right-mockup-container #web-mockup-img {
+    display: none; } }
 
 #testimonials-section {
-  background-color: black; }
-  @media screen {
+  background-color: black;
+  padding: 4em 0 7em;
+  overflow: hidden; }
+  @media screen and (min-width: 960px) {
     #testimonials-section {
-      overflow: hidden;
       height: 700px; } }
 
 #community-container {
@@ -689,7 +721,7 @@ a {
   @media screen and (min-width: 960px) {
     .testimonial {
       margin-right: 0;
-      margin-bottom: 1em;
+      margin-bottom: 1.2em;
       max-width: 80%; } }
 
 @media screen and (min-width: 960px) {
@@ -709,7 +741,10 @@ a {
 .testimonial-container-two {
   position: relative;
   right: 7%;
-  top: -5%; }
+  top: -25%; }
+  @media screen and (max-width: 959px) {
+    .testimonial-container-two {
+      display: none; } }
 
 footer {
   padding: 3.8em 0 1.6em; }

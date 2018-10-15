@@ -24,6 +24,10 @@
       padding-right: 0;
     }
   }
+
+  @media screen and(max-width: 959px) {
+    display: none;
+  }
 }
 
 #nav-right-side-container {
@@ -34,6 +38,10 @@
   p {
     padding-right: 1.5em;
     font-weight: 700;
+
+    @media screen and(max-width: 600px) {
+      display: none;
+    }
   }
 }
 

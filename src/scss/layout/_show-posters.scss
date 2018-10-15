@@ -1,4 +1,16 @@
+#show-poster-section {
+  overflow: hidden;
+  margin-bottom: 3.7em;
+}
+
 #show-posters-container {
   display: flex;
   justify-content: center;
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 220px;
+    max-height: 330px;
+  }
 }

@@ -41,13 +41,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
-.con {
+.compatible-with-image-div {
   img {
     width: 60%;
 
-    @media screen {
+    @media screen and(min-width: 960px) {
       width: 70%;
     }
   }
