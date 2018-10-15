@@ -4,12 +4,13 @@
     align-items: top;
     margin-top: 6em;
     margin-bottom: 5em;
+    justify-content: space-between;
   }
 }
 
 #interface-summary-container {
   display: inline-block;
-  margin: 1.5em 0;
+  margin: 1em 0;
 }
 
 .interface-summary-item {
@@ -17,7 +18,7 @@
   align-items: center;
 
   @media screen and(min-width: 960px) {
-    margin-bottom: .8em;
+    margin-bottom: 0.3em;
   }
 
   p {
@@ -42,8 +43,8 @@
     align-self: top;
 
     h3 {
-      font-size: 1.5em;
-      margin-bottom: .6em;
+      font-size: 1.7em;
+      margin-bottom: 0.6em;
     }
   }
 }
@@ -52,12 +53,9 @@
   @media screen and(min-width: 960px) {
     position: relative;
 
-
     #web-mockup-img {
-
-      width: 80%;
+      max-width: 90%;
       z-index: -1;
-      white-space: nowrap;
     }
 
     #bottom-phone {
@@ -65,14 +63,15 @@
       width: 30%;
       z-index: 100;
       right: 70%;
-      bottom: 1%;
+      bottom: -8%;
 
       @media screen and(min-width: 1000px) {
-        bottom: -7%;
+        bottom: -17%;
+      }
+
+      @media screen and(min-width: 1049px) {
+        width: 28%;
       }
     }
-
   }
-
-
 }
