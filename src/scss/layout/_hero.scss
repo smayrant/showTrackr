@@ -76,7 +76,7 @@
   }
 
   @media screen and(min-width: 1800px) {
-    left: 1405px;
+    left: 1305px;
   }
 
   @media screen and(min-width: 2000px) {
@@ -84,7 +84,13 @@
   }
 
   @media screen and(min-width: 2200px) {
-    left: 1805px;
+    left: 1705px;
+  }
+
+  @media screen and(min-width: 2400px) {
+    left: 1905px;
+    max-width: 750px;
+    max-height: 750px;
   }
 }
 
@@ -150,6 +156,7 @@
 
   @media screen and(min-width: 1800px) {
     left: 230px;
+    bottom: 645px;
   }
 
   @media screen and(min-width: 2000px) {
@@ -157,7 +164,7 @@
   }
 
   @media screen and(min-width: 2200px) {
-    left: 530px;
+    left: 230px;
   }
 
   @media screen and(min-width: 2500px) {

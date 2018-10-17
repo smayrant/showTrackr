@@ -348,6 +348,9 @@ body {
   @media screen and (min-width: 960px) {
     .container {
       padding: 0 1.5em; } }
+  @media screen and (min-width: 1800px) {
+    .container {
+      max-width: 1500px; } }
 
 h3 {
   font-size: 1.8em;
@@ -506,13 +509,18 @@ p {
       max-height: 670px; } }
   @media screen and (min-width: 1800px) {
     #purple-background {
-      left: 1405px; } }
+      left: 1305px; } }
   @media screen and (min-width: 2000px) {
     #purple-background {
       left: 1605px; } }
   @media screen and (min-width: 2200px) {
     #purple-background {
-      left: 1805px; } }
+      left: 1705px; } }
+  @media screen and (min-width: 2400px) {
+    #purple-background {
+      left: 1905px;
+      max-width: 750px;
+      max-height: 750px; } }
 
 #blue-background {
   max-width: 150px;
@@ -565,13 +573,14 @@ p {
       max-height: 300px; } }
   @media screen and (min-width: 1800px) {
     #blue-background {
-      left: 230px; } }
+      left: 230px;
+      bottom: 645px; } }
   @media screen and (min-width: 2000px) {
     #blue-background {
       left: 330px; } }
   @media screen and (min-width: 2200px) {
     #blue-background {
-      left: 530px; } }
+      left: 230px; } }
   @media screen and (min-width: 2500px) {
     #blue-background {
       left: 600px; } }
@@ -705,8 +714,8 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-animation: slide 20s linear infinite;
-          animation: slide 20s linear infinite;
+  -webkit-animation: slide 40s linear infinite;
+          animation: slide 40s linear infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
   #show-posters-container img {
@@ -717,19 +726,19 @@ p {
 
 @-webkit-keyframes slide {
   from {
-    -webkit-transform: translateX(-1200px);
-            transform: translateX(-1200px); }
+    -webkit-transform: translateX(-1501px);
+            transform: translateX(-1501px); }
   to {
-    -webkit-transform: translateX(1400px);
-            transform: translateX(1400px); } }
+    -webkit-transform: translateX(1653px);
+            transform: translateX(1653px); } }
 
 @keyframes slide {
   from {
-    -webkit-transform: translateX(-1200px);
-            transform: translateX(-1200px); }
+    -webkit-transform: translateX(-1501px);
+            transform: translateX(-1501px); }
   to {
-    -webkit-transform: translateX(1400px);
-            transform: translateX(1400px); } }
+    -webkit-transform: translateX(1653px);
+            transform: translateX(1653px); } }
 
 @media screen and (min-width: 960px) {
   #app-showcase-section {
