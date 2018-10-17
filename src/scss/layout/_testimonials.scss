@@ -75,6 +75,21 @@
   position: relative;
   right: 3%;
   bottom: 4%;
+
+  @media screen and(max-width: 959px) {
+    animation: slide 40s linear infinite;
+    animation-fill-mode: both;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(960px);
+  }
+
+  to {
+    transform: translateX(-1363px);
+  }
 }
 
 .testimonial-container-two {

@@ -901,6 +901,20 @@ p {
   position: relative;
   right: 3%;
   bottom: 4%; }
+  @media screen and (max-width: 959px) {
+    .testimonial-container-one {
+      -webkit-animation: slide 40s linear infinite;
+              animation: slide 40s linear infinite;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both; } }
+
+@keyframes slide {
+  from {
+    -webkit-transform: translateX(960px);
+            transform: translateX(960px); }
+  to {
+    -webkit-transform: translateX(-1363px);
+            transform: translateX(-1363px); } }
 
 .testimonial-container-two {
   position: relative;
