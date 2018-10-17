@@ -1,6 +1,4 @@
 #hero-section {
-  overflow: hidden;
-
   h2 {
     font-weight: 900;
     font-size: 2.5em;
@@ -14,6 +12,7 @@
   @media screen and (min-width: 960px) {
     display: flex;
     justify-content: center;
+    position: relative;
   }
 }
 
@@ -56,41 +55,20 @@
   }
 
   @media screen and(min-width: 960px) {
-    bottom: 855px;
-    left: 750px;
+    top: 5px;
+    left: 105px;
     max-width: 475px;
     max-height: 475px;
   }
 
-  @media screen and(min-width: 1120px) {
-    left: 905px;
+  @media screen and(min-width: 1200px) {
     max-width: 600px;
     max-height: 600px;
   }
 
-  @media screen and(min-width: 1400px) {
-    left: 1105px;
-    bottom: 755px;
-    max-width: 670px;
-    max-height: 670px;
-  }
-
-  @media screen and(min-width: 1800px) {
-    left: 1305px;
-  }
-
   @media screen and(min-width: 2000px) {
-    left: 1605px;
-  }
-
-  @media screen and(min-width: 2200px) {
-    left: 1705px;
-  }
-
-  @media screen and(min-width: 2400px) {
-    left: 1905px;
-    max-width: 750px;
-    max-height: 750px;
+    max-width: 700px;
+    max-height: 700px;
   }
 }
 
@@ -138,42 +116,7 @@
   }
 
   @media screen and(min-width: 960px) {
-    bottom: 605px;
-    right: 740px;
-    max-width: 270px;
-    max-height: 270px;
-  }
-
-  @media screen and(min-width: 1086px) {
-    right: 830px;
-  }
-
-  @media screen and(min-width: 1200px) {
-    left: 30px;
-    max-width: 300px;
-    max-height: 300px;
-  }
-
-  @media screen and(min-width: 1800px) {
-    left: 230px;
-    bottom: 645px;
-  }
-
-  @media screen and(min-width: 2000px) {
-    left: 330px;
-  }
-
-  @media screen and(min-width: 2200px) {
-    left: 230px;
-  }
-
-  @media screen and(min-width: 2500px) {
-    left: 600px;
-  }
-
-  @media screen and(min-width: 2800px) {
-    max-width: 400px;
-    max-height: 400px;
+    display: none;
   }
 }
 
@@ -243,9 +186,5 @@
     width: 100%;
     max-width: 310px;
     margin: 0 auto;
-  }
-
-  @media screen and(min-width: 960px) {
-    position: static;
   }
 }
