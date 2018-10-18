@@ -1,12 +1,13 @@
 #show-poster-section {
   overflow: hidden;
   margin-bottom: 3.7em;
+  display: flex;
 }
 
 #show-posters-container {
   display: flex;
   justify-content: center;
-  animation: slide 40s linear infinite;
+  animation: slide 35s linear infinite;
   animation-fill-mode: both;
   img {
     width: auto;
@@ -22,6 +23,6 @@
   }
 
   to {
-    transform: translateX(1853px);
+    transform: translateX(1465px);
   }
 }

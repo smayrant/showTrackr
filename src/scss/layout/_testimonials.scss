@@ -77,12 +77,12 @@
   bottom: 4%;
 
   @media screen and(max-width: 959px) {
-    animation: slide 40s linear infinite;
+    animation: slide2 40s linear infinite;
     animation-fill-mode: both;
   }
 }
 
-@keyframes slide {
+@keyframes slide2 {
   from {
     transform: translateX(960px);
   }
